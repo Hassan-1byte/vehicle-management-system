@@ -2,7 +2,8 @@ import React from "react";
 import Appointment from "./Appointment";
 import OrderButtons from "./OrderButtons";
 import OrderCards from "./OrderCards";
-// import OrderChart from "./OrderChart";
+import OrderChart from "../../components/OrderChart";
+import RecentOrders from "../../components/RecentOrders";
 
 export default function Homepage() {
   return (
@@ -27,7 +28,12 @@ export default function Homepage() {
       </div>
       {/* ......home_Second_half_Here...... */}
       <div className="home_second_half">
-        <div className="apex_chart_container">{/* <OrderChart /> */}</div>
+        <div className="apex_chart_container">
+          <OrderChart />
+        </div>
+        <div className="recent_orders_container">
+          <RecentOrders />
+        </div>
       </div>
     </div>
   );

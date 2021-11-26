@@ -29,19 +29,20 @@
 
   // <------- Second Half of Home Page ------->
 
-  .home_first_half {
+  .home_second_half {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 30px 20px;
     padding: 10px;
     width: 100%;
-  }
 
-  // .order_box {
-  //   grid-column: 1 / span 3;
-  //   height: 100%;
-  // }
-  // .appointment_box {
-  //   height: 100%;
-  // }
+    // .apex_chart_container {
+    //   grid-column: 1 / span 3;
+    //   height: 100%;
+    // }
+
+    // .recent_orders_container {
+    //   height: 100%;
+    // }
+  }
 }
