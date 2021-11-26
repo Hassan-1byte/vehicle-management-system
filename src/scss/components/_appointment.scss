@@ -1,11 +1,14 @@
 .appointment {
+  height: 100%;
   .appo-container {
-    border: 1px solid grey;
+    // border: 1px solid #a2a2a2;
+
     .appo-head {
       display: flex;
       background-color: #fbfbfb;
       justify-content: space-between;
       padding: 20px 15px;
+      height: 100%;
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       .appo-head-left {
         h1 {
@@ -16,6 +19,13 @@
       .appo-head-right {
         display: flex;
         align-items: center;
+        // border: 1px solid red;
+        .prev {
+          padding-right: 10px;
+        }
+        .next {
+          padding-left: 10px;
+        }
         .date {
           h4 {
             font-size: 14px;
@@ -26,11 +36,15 @@
     }
     .appo-box-text {
       background-color: #ffffff;
+      padding: 8px 10px;
+      // border: 1px solid red;
+
       .appo-row-one {
         display: flex;
         justify-content: space-between;
-        border: 1px solid red;
         // align-items: center;
+        padding: 5px 5px;
+        border-bottom: 1px solid #cbcbcb;
         .row-text {
           padding: 5px 0px;
           h3 {
@@ -52,6 +66,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px 5px;
+        border-bottom: 1px solid #cbcbcb;
 
         .row-text {
           h3 {
@@ -72,6 +88,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 10px 5px;
+        border-bottom: 1px solid #cbcbcb;
         .row-text {
           h3 {
             font-size: 14px;

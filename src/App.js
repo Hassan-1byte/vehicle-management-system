@@ -1,18 +1,18 @@
-import Homepage from "./pages/Homepage";
-import Navbar from "./components/Navbar";
-
 import "../src/scss/style.scss";
-import Sidebar from "./components/Sidebar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Homepage from "./pages/home-page";
 
 function App() {
   return (
     <Router>
       <Switch>
         <div className="App">
-          <Navbar />
-          <Sidebar />
-          <Homepage />
+          <Layout>
+            <Route path="/" exact>
+              <Homepage />
+            </Route>
+          </Layout>
         </div>
       </Switch>
     </Router>

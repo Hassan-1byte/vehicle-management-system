@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+
+  .content {
+    align-self: flex-start;
+    overflow-x: hidden;
+    flex: 1;
+    min-height: 100vh;
+  }
+}

@@ -1,20 +1,20 @@
 import React from "react";
-
-import OrderCards from "../components/OrderCards";
-import OrderButtons from "../components/OrderButtons";
-import Appointment from "../components/Appointment";
+import Appointment from "./Appointment";
+import OrderButtons from "./OrderButtons";
+import OrderCards from "./OrderCards";
+// import OrderChart from "./OrderChart";
 
 export default function Homepage() {
   return (
     <div className="homepage">
       <div className="home_first_half">
         {/* .......ORDER BOX........ */}
-
+        <h2>Order</h2>
         <div className="order_box">
           <div className="order_cards">
             <OrderCards />
           </div>
-          <div className="order_buttons">
+          <div>
             <OrderButtons />
           </div>
         </div>
@@ -24,6 +24,10 @@ export default function Homepage() {
         <div className="appointment_box">
           <Appointment />
         </div>
+      </div>
+      {/* ......home_Second_half_Here...... */}
+      <div className="home_second_half">
+        <div className="apex_chart_container">{/* <OrderChart /> */}</div>
       </div>
     </div>
   );

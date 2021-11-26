@@ -1,10 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import { SidebarData } from "./SidebarData";
-import SubMenu from "./SubMenu";
-import { IconContext } from "react-icons/lib";
-import Homepage from "../pages/Homepage";
+import { SidebarData } from "../SidebarData";
+import SubMenu from "../SubMenu";
 
 const Nav = styled.div`
   background: #1261a0;

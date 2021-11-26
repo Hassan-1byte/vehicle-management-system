@@ -17,6 +17,7 @@ const SidebarLink = styled(Link)`
     background: #f2f7fa;
     border-left: 4px solid #1261a0;
     cursor: pointer;
+    color: #1261a0;
   }
 `;
 

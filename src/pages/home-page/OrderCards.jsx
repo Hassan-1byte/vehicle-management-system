@@ -1,9 +1,9 @@
 import React from "react";
 
-import orderLogo from "../assets/order.png";
-import completedLogo from "../assets/cOrder.png";
-import pendingOrder from "../assets/pOrder.png";
-import revenueLogo from "../assets/tRevenue.png";
+import orderLogo from "../../assets/order.png";
+import completedLogo from "../../assets/cOrder.png";
+import pendingOrder from "../../assets/pOrder.png";
+import revenueLogo from "../../assets/tRevenue.png";
 
 export default function OrderCards() {
   const data = [
@@ -34,7 +34,6 @@ export default function OrderCards() {
 
   return (
     <div className="orderCards">
-      <h2>Order</h2>
       <div className="orderContainer">
         {data.map((order, index) => {
           return (

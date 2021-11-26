@@ -1,23 +1,47 @@
 @import "./_mixin.scss";
 
 .homepage {
-  padding: 100px 300px;
+  background-color: #f2f7fa;
   .home_first_half > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
     font-size: 30px;
+    // border: 1px solid red;
   }
 
   .home_first_half {
+    h2 {
+      font-size: 16px;
+      color: #1261a0;
+    }
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
-    background-color: #2196f3;
+    grid-gap: 30px 20px;
     padding: 10px;
+    width: 100%;
   }
 
   .order_box {
     grid-column: 1 / span 3;
+    height: 100%;
   }
+  .appointment_box {
+    height: 100%;
+  }
+
+  // <------- Second Half of Home Page ------->
+
+  .home_first_half {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px 20px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  // .order_box {
+  //   grid-column: 1 / span 3;
+  //   height: 100%;
+  // }
+  // .appointment_box {
+  //   height: 100%;
+  // }
 }

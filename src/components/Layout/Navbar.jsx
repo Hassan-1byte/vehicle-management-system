@@ -1,11 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import Sidebar from "../components/Sidebar";
 
 import { BiSearch } from "react-icons/bi";
 import { AiOutlineDown } from "react-icons/ai";
-import avatar from "../assets/Oval.png";
+import avatar from "../../assets/Oval.png";
 
 export default function Navbar() {
   return (
@@ -32,8 +29,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      {/* <div style={{ padding: "200px" }}>hjgfyfyt</div> */}
-      {/* <Sidebar /> */}
     </>
   );
 }
