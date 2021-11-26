@@ -37,14 +37,14 @@
     width: 100%;
 
     .apex_chart_container {
-      border: 1px solid green;
+      // border: 1px solid green;
       background-color: #ffffff;
       grid-column: 1 / span 3;
       height: 100%;
     }
 
-    .recent_orders_container {
-      // border: 1px solid red;
-    }
+    // .recent_orders_container {
+    //   border: 1px solid transparent;
+    // }
   }
 }

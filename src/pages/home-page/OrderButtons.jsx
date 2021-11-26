@@ -10,11 +10,11 @@ export default function OrderButtons() {
     <div className="orderButtons">
       <div className="one">
         <h1>Add New Order</h1>
-        <img src={plus} alt="" />
+        <img className="plus" src={plus} alt="" />
       </div>
       <div className="two">
         <h1>Order History</h1>
-        <img src={history} alt="" />
+        <img className="history" src={history} alt="" />
       </div>
     </div>
   );

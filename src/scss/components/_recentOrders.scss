@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fbfbfb;
-    padding: 7px 5px;
+    padding: 7px 10px;
     box-shadow: rgba(99, 99, 99, 0.089) 0px 2px 8px 0px;
     h3 {
       font-size: 18px;
@@ -15,7 +15,8 @@
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
-    padding: 5px 5px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
     .person {
       .name {
         font-size: 12px;
