@@ -1,0 +1,92 @@
+.appointment {
+  .appo-container {
+    border: 1px solid grey;
+    .appo-head {
+      display: flex;
+      background-color: #fbfbfb;
+      justify-content: space-between;
+      padding: 20px 15px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      .appo-head-left {
+        h1 {
+          font-size: 24px;
+          color: #1261a0;
+        }
+      }
+      .appo-head-right {
+        display: flex;
+        align-items: center;
+        .date {
+          h4 {
+            font-size: 14px;
+            color: #1261a0;
+          }
+        }
+      }
+    }
+    .appo-box-text {
+      background-color: #ffffff;
+      .appo-row-one {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+        // align-items: center;
+        .row-text {
+          padding: 5px 0px;
+          h3 {
+            font-size: 14px;
+            color: #1261a0;
+            // border: 1px solid red;
+          }
+          .para-grey {
+            font-size: 10px;
+            color: #585858;
+          }
+          .para-blue {
+            font-size: 8px;
+            color: #1261a0;
+          }
+        }
+      }
+      .appo-row-two {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .row-text {
+          h3 {
+            font-size: 14px;
+            color: #1261a0;
+          }
+          .para-grey {
+            font-size: 10px;
+            color: #585858;
+          }
+          .para-blue {
+            font-size: 8px;
+            color: #1261a0;
+          }
+        }
+      }
+      .appo-row-three {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .row-text {
+          h3 {
+            font-size: 14px;
+            color: #1261a0;
+          }
+          .para-grey {
+            font-size: 10px;
+            color: #585858;
+          }
+          .para-blue {
+            font-size: 8px;
+            color: #1261a0;
+          }
+        }
+      }
+    }
+  }
+}
