@@ -1,0 +1,22 @@
+.orderChart {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    .head_left {
+      h1 {
+        color: #585858;
+        font-size: 14px;
+      }
+    }
+    .head-right {
+      display: flex;
+      h1 {
+        color: #585858;
+        font-size: 14px;
+      }
+      .down_sign {
+        // border: 1px solid red;
+      }
+    }
+  }
+}

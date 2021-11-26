@@ -28,6 +28,7 @@ export default function Homepage() {
       </div>
       {/* ......home_Second_half_Here...... */}
       <div className="home_second_half">
+        <h1>Order Chart</h1>
         <div className="apex_chart_container">
           <OrderChart />
         </div>
