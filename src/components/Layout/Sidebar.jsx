@@ -4,13 +4,13 @@ import styled from "styled-components";
 import { SidebarData } from "../SidebarData";
 import SubMenu from "../SubMenu";
 
-const Nav = styled.div`
-  background: #1261a0;
-  height: 60px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`;
+// const Nav = styled.div`
+//   background: #1261a0;
+//   height: 60px;
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
+// `;
 
 const SidebarWrap = styled.div`
   background: #ffffff;

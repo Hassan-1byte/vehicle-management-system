@@ -1,7 +1,5 @@
 import React from "react";
 
-import { AiOutlinePlusCircle } from "react-icons/ai";
-import { GrHistory } from "react-icons/gr";
 import plus from "../../assets/plus.png";
 import history from "../../assets/history.png";
 

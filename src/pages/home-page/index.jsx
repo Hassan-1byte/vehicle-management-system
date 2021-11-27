@@ -2,7 +2,7 @@ import React from "react";
 import Appointment from "./Appointment";
 import OrderButtons from "./OrderButtons";
 import OrderCards from "./OrderCards";
-import OrderChart from "../../components/OrderChart";
+import OrderChart from "./OrderChart";
 import RecentOrders from "../../components/RecentOrders";
 
 export default function Homepage() {
@@ -27,8 +27,8 @@ export default function Homepage() {
         </div>
       </div>
       {/* ......home_Second_half_Here...... */}
+      <h1 className="order-heading">Order Chart</h1>
       <div className="home_second_half">
-        <h1>Order Chart</h1>
         <div className="apex_chart_container">
           <OrderChart />
         </div>
