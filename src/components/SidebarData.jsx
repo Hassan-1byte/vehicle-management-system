@@ -12,7 +12,7 @@ import { AiOutlineSetting } from "react-icons/ai";
 export const SidebarData = [
   {
     title: "Home",
-    path: "#",
+    path: "/",
     icon: <BiHome />,
   },
 
