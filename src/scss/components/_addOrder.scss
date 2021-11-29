@@ -1,6 +1,8 @@
 .addOrder {
-  margin: 10px 15px;
   // border: 1px solid pink;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 10px;
   .pageTitle {
     display: flex;
     padding-top: 10px;
@@ -123,18 +125,19 @@
       .labor-cost {
         position: absolute;
         top: 840px;
-        left: 250px;
+        left: 260px;
+        // border: 1px solid red;
       }
       .repairman {
         position: absolute;
         top: 840px;
-        left: 1349px;
+        left: 1357px;
       }
     }
   }
   .addBtn {
     margin-top: 45px;
-    border: 1px solid green;
+    // border: 1px solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
