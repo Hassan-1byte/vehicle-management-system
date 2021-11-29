@@ -1,5 +1,5 @@
 import React from "react";
-import vDots from "../../assets/Accomplished.png";
+// import { vDots } from "../../assets/Accomplished.png";
 
 export const TableRowData = [
   {
@@ -10,7 +10,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -21,7 +21,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -32,7 +32,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -43,7 +43,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -54,7 +54,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -65,7 +65,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -76,7 +76,7 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 
   {
@@ -87,6 +87,6 @@ export const TableRowData = [
     Make: "Honda",
     jobType: "Wheel Alignment",
     labor: "3,500 Rs",
-    action: <vDots />,
+    // action: <img src={vDots} alt="" />,
   },
 ];

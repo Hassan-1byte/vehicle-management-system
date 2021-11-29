@@ -1,49 +1,49 @@
 import React from "react";
-import arrows from "../../assets/arrows.png";
+// import arrows from "../../assets/arrows.png";
 
-export const colNames = [
+export const TablecolNames = [
   {
     orderNo: "Order No.",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     date: "Date",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     clientId: "Client ID",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     clientName: "Client Name",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     vehicleNumber: "Vehicle Number",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     make: "Make",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     jobType: "Job Type",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     labor: "Labor",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 
   {
     action: "Action",
-    icon: <arrows />,
+    // icon: <img src={arrows} alt="" />,
   },
 ];

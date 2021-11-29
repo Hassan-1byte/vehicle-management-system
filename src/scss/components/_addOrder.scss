@@ -1,0 +1,132 @@
+.addOrder {
+  .pageTitle {
+    display: flex;
+    padding-top: 10px;
+    // padding-left: 10px;
+    h1 {
+      color: #1261a0;
+      font-size: 20px;
+    }
+    h2 {
+      color: #1261a0;
+      font-size: 16px;
+      padding-left: 5px;
+      padding-top: 3px;
+    }
+  }
+  .client-data {
+    // border: 1px solid green;
+    .heading {
+      color: #1261a0;
+      font-size: 18px;
+      padding-bottom: 5px;
+      padding-top: 30px;
+    }
+    .border-down {
+      border-bottom: 1px solid #93b7d2;
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      .complete-field {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        margin-top: 5px;
+        margin-right: 140px;
+        label {
+          font-size: 14px;
+          color: #6a6a6a;
+          padding-bottom: 5px;
+        }
+        input {
+          padding: 18px 120px;
+          border: none;
+          border-bottom: 1px solid red;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  .vehicle-data {
+    // border: 1px solid green;
+    .heading {
+      color: #1261a0;
+      font-size: 18px;
+      padding-bottom: 5px;
+      padding-top: 30px;
+    }
+    .border-down {
+      border-bottom: 1px solid #93b7d2;
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      .complete-field {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        margin-top: 5px;
+        margin-right: 140px;
+        label {
+          font-size: 14px;
+          color: #6a6a6a;
+          padding-bottom: 5px;
+        }
+        input {
+          padding: 18px 120px;
+          border: none;
+          border-radius: 5px;
+          border-bottom: 1px solid green;
+        }
+      }
+    }
+  }
+  .job-details {
+    // border: 1px solid green;
+    .heading {
+      color: #1261a0;
+      font-size: 18px;
+      padding-bottom: 5px;
+      padding-top: 30px;
+    }
+    .border-down {
+      border-bottom: 1px solid #93b7d2;
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      .complete-field {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+        margin-top: 5px;
+        margin-right: 140px;
+        label {
+          font-size: 14px;
+          color: #6a6a6a;
+          padding-bottom: 5px;
+        }
+        input {
+          padding: 18px 120px;
+          border: none;
+          border-radius: 5px;
+          //   border-bottom: 1px solid green;
+        }
+        .big-padding {
+          padding: 72px 120px;
+        }
+      }
+      .labor-cost {
+        position: absolute;
+        top: 840px;
+        left: 250px;
+      }
+      .repairman {
+        position: absolute;
+        top: 840px;
+        left: 1349px;
+      }
+    }
+  }
+}
