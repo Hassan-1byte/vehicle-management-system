@@ -1,4 +1,6 @@
 .addOrder {
+  margin: 10px 15px;
+  // border: 1px solid pink;
   .pageTitle {
     display: flex;
     padding-top: 10px;
@@ -128,6 +130,24 @@
         top: 840px;
         left: 1349px;
       }
+    }
+  }
+  .addBtn {
+    margin-top: 45px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1261a0;
+    padding: 5px 13px;
+    border-radius: 8px;
+    width: 13%;
+    h3 {
+      font-size: 16px;
+      color: #ffffff;
+    }
+    .plus {
+      height: 10%;
     }
   }
 }
