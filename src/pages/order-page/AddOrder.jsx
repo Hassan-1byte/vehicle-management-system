@@ -1,4 +1,5 @@
 import React from "react";
+import plus from "../../assets/plus.png";
 
 export default function AddOrder() {
   return (
@@ -103,6 +104,11 @@ export default function AddOrder() {
             <input type="text" id="Orderno" name="Orderno" />
           </div>
         </form>
+      </div>
+
+      <div className="addBtn">
+        <h3>Add Details</h3>
+        <img className="plus" src={plus} alt="" />
       </div>
     </div>
   );

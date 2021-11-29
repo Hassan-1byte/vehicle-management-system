@@ -42,8 +42,9 @@
         input {
           padding: 18px 120px;
           border: none;
-          border-bottom: 1px solid red;
+          //   border: 1px solid red;
           border-radius: 5px;
+          box-shadow: rgba(42, 56, 70, 0.075) 0px 8px 30px;
         }
       }
     }
@@ -77,7 +78,7 @@
           padding: 18px 120px;
           border: none;
           border-radius: 5px;
-          border-bottom: 1px solid green;
+          box-shadow: rgba(42, 56, 70, 0.075) 0px 8px 30px;
         }
       }
     }
@@ -111,7 +112,7 @@
           padding: 18px 120px;
           border: none;
           border-radius: 5px;
-          //   border-bottom: 1px solid green;
+          box-shadow: rgba(42, 56, 70, 0.075) 0px 8px 30px;
         }
         .big-padding {
           padding: 72px 120px;
