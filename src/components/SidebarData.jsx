@@ -26,12 +26,12 @@ export const SidebarData = [
     subNav: [
       {
         title: "Order List",
-        path: "/overview/users",
+        path: "/order/orderlist",
         icon: <BsCardList />,
       },
       {
         title: "Add Order",
-        path: "/overview/revenue",
+        path: "/order/addorder",
         icon: <BsCardList />,
       },
     ],
